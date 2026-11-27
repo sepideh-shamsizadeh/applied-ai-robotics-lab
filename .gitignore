@@ -221,3 +221,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ROS 2 / C++ / simulation
+install/
+log/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.a
+*.bag
+*.db3
+*.mcap
+# Local ML assets and credentials
+**/data/raw/
+**/checkpoints/
+**/weights/
+*.pt
+*.pth
+*.safetensors
+*.engine
+.env.*
+!.env.example
+.DS_Store
